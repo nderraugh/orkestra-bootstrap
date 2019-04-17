@@ -33,7 +33,7 @@ spec:
       serviceAccountName: orkestra
       containers:
       - name: orkestra
-        image: orkestra:0.1.0-SNAPSHOT
+        image: gcr.io/kops-orkestra/orkestra:0.1.0
         imagePullPolicy: IfNotPresent
         env:
         - name: ORKESTRA_KUBE_URI

@@ -1,3 +1,5 @@
+scalaVersion := "2.12.6"
+
 ThisBuild / dependencyOverrides += "org.webjars.npm" % "js-tokens" % "3.0.2"
 
 lazy val orkestra = orkestraProject("orkestra", file("orkestra"))
