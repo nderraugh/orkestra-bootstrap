@@ -1,4 +1,4 @@
-scalaVersion := "2.12.6"
+scalaVersion := "2.12.8"
 
 ThisBuild / dependencyOverrides += "org.webjars.npm" % "js-tokens" % "3.0.2"
 
